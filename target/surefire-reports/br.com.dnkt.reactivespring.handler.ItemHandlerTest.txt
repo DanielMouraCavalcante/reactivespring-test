@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: br.com.dnkt.reactivespring.handler.ItemHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in br.com.dnkt.reactivespring.handler.ItemHandlerTest
+br.com.dnkt.reactivespring.handler.ItemHandlerTest  Time elapsed: 0.001 s  <<< ERROR!
+org.junit.platform.commons.JUnitException: @BeforeAll method 'public void br.com.dnkt.reactivespring.handler.ItemHandlerTest.setUp()' must be static unless the test class is annotated with @TestInstance(Lifecycle.PER_CLASS).
+
